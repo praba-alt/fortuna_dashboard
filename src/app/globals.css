@@ -1,0 +1,35 @@
+:root {
+  --bg: #f5f7fb;
+  --panel: #ffffff;
+  --ink: #16182c;
+  --muted: #6f7591;
+  --line: #d9deeb;
+  --accent: #1b4dff;
+  --good: #16a34a;
+  --warn: #f59e0b;
+  --risk: #dc2626;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
